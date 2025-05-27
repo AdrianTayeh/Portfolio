@@ -1,0 +1,13 @@
+a:visited {
+  color: inherit;
+}
+
+.fade-to-white-img {
+  mask-image: linear-gradient(to bottom, black 40%, transparent 70%);
+  -webkit-mask-image: linear-gradient(to bottom, black 40%, transparent 70%);
+}
+
+.card-no-gap .mantine-Card-section {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
