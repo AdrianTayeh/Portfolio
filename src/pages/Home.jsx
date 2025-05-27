@@ -288,11 +288,11 @@ export default function Home() {
                       href={link.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      style={{ display: "flex", alignItems: "center", gap: 6 }}
+                      style={{ display: "flex", alignItems: "center", gap: 6, color: "#111"}}
                       aria-label={link.label}
                     >
-                      {link.label === "Website" && <CiGlobe size={20} />}
-                      {link.label === "GitHub" && <FaGithub size={18} />}
+                      {link.label === "Website" && <CiGlobe size={20} color="#111" />}
+                      {link.label === "GitHub" && <FaGithub size={18} color="#111" />}
                     </Anchor>
                   ))}
                 </Group>
