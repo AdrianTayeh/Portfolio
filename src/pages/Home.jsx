@@ -39,7 +39,7 @@ const projects = [
       "Spotify Wrapped Demo is a web application that visualizes a user’s Spotify listening habits using the Spotify Web API. After authenticating with their Spotify account, users can view their top tracks, artists, and albums in a visually engaging three-column layout, each with images. The app is built with modern JavaScript, Vite, and Chart.js, and implements secure OAuth2 authentication with PKCE. Deployed on Netlify, it demonstrates API integration, dynamic UI rendering, and responsive design.",
     image: spotifyWrappedImg,
     links: [
-      { label: "Website", url: "https://spotify-wrapped-demo.netlify.app/" },
+      { label: "Website", url: "https://spotify-wrapped-demo.netlify.app" },
       {
         label: "GitHub",
         url: "https://github.com/AdrianTayeh/Spotify-Wrapped-Demo",
