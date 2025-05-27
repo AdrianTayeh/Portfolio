@@ -17,6 +17,8 @@ import cvCreatorImg from "../assets/CVCreator.png";
 import spotifyWrappedImg from "../assets/SpotifyWrapped.png";
 import appleTailwind from "../assets/AppleTailwind.png";
 import guessTheFootballerImg from "../assets/GuessTheFootballer.png";
+import workoutJournal from "../assets/WorkoutJournal.png";
+import TechStackBand from "../components/TechStackBand";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -90,6 +92,18 @@ const projects = [
       {
         label: "GitHub",
         url: "https://github.com/KevinRuangrad/guessthefotballer",
+      },
+    ],
+  },
+  {
+    title: "WorkoutJournal",
+    description:
+      "This project is a full-stack Workout Journal application where users can register, log in, and manage their workouts and activities. Built with React and FluentUI for a modern, accessible frontend, and Node.js/Express with a MySQL database for the backend, it allows users to create, edit, and delete workouts, link activities, and track workout details such as date, duration, and comments. The app features authentication, a clean FluentUI-based interface, and real-time updates, making it easy to monitor fitness progress over time.",
+    image: workoutJournal,
+    links: [
+      {
+        label: "GitHub",
+        url: "https://github.com/MH-GRIT/databashantering-tr-ningsdagboken-AdrianTayeh",
       },
     ],
   },
@@ -179,9 +193,9 @@ export default function Home() {
             Welcome
           </Title>
           <Text size="xl" style={{ maxWidth: 700, margin: "0 auto 2rem" }}>
-            My name is Adrian Tayeh, a front-end developer based in Sweden. I
+            My name is Adrian Tayeh, I'm a front-end developer based in Sweden. I
             love building clean, animated interfaces and seamless web
-            experiences. Currently studying and always exploring new
+            experiences. Currently studying front-end development and always exploring new
             technologies.
           </Text>
         </Group>
@@ -286,6 +300,8 @@ export default function Home() {
             ))}
           </Group>
         </Container>
+        <Title order={2} align="center" mt="xl">My Tech Stack</Title>
+        <TechStackBand />
         <svg
           viewBox="0 0 1600 140"
           style={{
