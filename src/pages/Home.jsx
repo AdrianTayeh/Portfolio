@@ -221,8 +221,11 @@ export default function Home() {
             pointerEvents: "none",
             zIndex: 2,
           }}
+          width="100%"
+          height={140}
+          preserveAspectRatio="none"
         >
-          <ellipse cx="800" cy="140" rx="900" ry="140" fill="#fff" />
+          <ellipse cx="800" cy="140" rx="1200" ry="140" fill="#fff" />
         </svg>
       </div>
       <div
@@ -314,8 +317,11 @@ export default function Home() {
             pointerEvents: "none",
             zIndex: 2,
           }}
+          width="100%"
+          height={140}
+          preserveAspectRatio="none"
         >
-          <ellipse cx="800" cy="0" rx="900" ry="140" fill="#fff" />
+          <ellipse cx="800" cy="0" rx="1200" ry="140" fill="#fff" />
         </svg>
       </div>
       <footer
